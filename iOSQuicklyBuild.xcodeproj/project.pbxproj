@@ -23,6 +23,7 @@
 		97EF3A271E8A05AD000EF350 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A261E8A05AD000EF350 /* UserModel.m */; };
 		97EF3A2A1E8A07A4000EF350 /* AppSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A291E8A07A4000EF350 /* AppSetting.m */; };
 		97EF3A2D1E8A092A000EF350 /* NSDictionary+NullDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A2C1E8A092A000EF350 /* NSDictionary+NullDeal.m */; };
+		97EF3A301E8A0C81000EF350 /* WMCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A2F1E8A0C81000EF350 /* WMCarouselView.m */; };
 		EC8D75D1FF8772E35354C274 /* libPods-iOSQuicklyBuild.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BE876AA242B331578F59CC /* libPods-iOSQuicklyBuild.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		97EF3A291E8A07A4000EF350 /* AppSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSetting.m; sourceTree = "<group>"; };
 		97EF3A2B1E8A092A000EF350 /* NSDictionary+NullDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NullDeal.h"; sourceTree = "<group>"; };
 		97EF3A2C1E8A092A000EF350 /* NSDictionary+NullDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NullDeal.m"; sourceTree = "<group>"; };
+		97EF3A2E1E8A0C81000EF350 /* WMCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCarouselView.h; sourceTree = "<group>"; };
+		97EF3A2F1E8A0C81000EF350 /* WMCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCarouselView.m; sourceTree = "<group>"; };
 		CF63C298871A5113350414AC /* Pods-iOSQuicklyBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSQuicklyBuild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSQuicklyBuild/Pods-iOSQuicklyBuild.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,6 +211,8 @@
 				97EF3A261E8A05AD000EF350 /* UserModel.m */,
 				97EF3A281E8A07A4000EF350 /* AppSetting.h */,
 				97EF3A291E8A07A4000EF350 /* AppSetting.m */,
+				97EF3A2E1E8A0C81000EF350 /* WMCarouselView.h */,
+				97EF3A2F1E8A0C81000EF350 /* WMCarouselView.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EF3A301E8A0C81000EF350 /* WMCarouselView.m in Sources */,
 				97EF3A111E89FB6D000EF350 /* UIView+frame.m in Sources */,
 				97EF3A2D1E8A092A000EF350 /* NSDictionary+NullDeal.m in Sources */,
 				97EF3A1B1E8A00DE000EF350 /* RuntimeUtil.m in Sources */,
@@ -566,8 +572,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KQ59DD787S;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = iOSQuicklyBuild/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(SRCROOT)/**",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = forever.iOSQuicklyBuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -579,8 +595,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KQ59DD787S;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = iOSQuicklyBuild/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(SRCROOT)/**",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = forever.iOSQuicklyBuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

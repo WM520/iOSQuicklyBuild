@@ -1,15 +1,20 @@
 PODS:
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - Masonry
   - MBProgressHUD
+  - SDWebImage
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: c41788de0246be78f888deb604b9ea90a066465d
+PODFILE CHECKSUM: 36054a7fbaeaf93057bb744ffba16d2a89d9d051
 
 COCOAPODS: 1.2.0
