@@ -20,6 +20,8 @@
 		97EF3A181E89FE6D000EF350 /* WMCharacterHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A171E89FE6D000EF350 /* WMCharacterHandle.m */; };
 		97EF3A1B1E8A00DE000EF350 /* RuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A1A1E8A00DE000EF350 /* RuntimeUtil.m */; };
 		97EF3A241E8A030C000EF350 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A231E8A030C000EF350 /* NSString+Addition.m */; };
+		97EF3A271E8A05AD000EF350 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A261E8A05AD000EF350 /* UserModel.m */; };
+		97EF3A2A1E8A07A4000EF350 /* AppSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF3A291E8A07A4000EF350 /* AppSetting.m */; };
 		EC8D75D1FF8772E35354C274 /* libPods-iOSQuicklyBuild.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BE876AA242B331578F59CC /* libPods-iOSQuicklyBuild.a */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,10 @@
 		97EF3A1A1E8A00DE000EF350 /* RuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeUtil.m; sourceTree = "<group>"; };
 		97EF3A221E8A030C000EF350 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
 		97EF3A231E8A030C000EF350 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		97EF3A251E8A05AD000EF350 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		97EF3A261E8A05AD000EF350 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		97EF3A281E8A07A4000EF350 /* AppSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSetting.h; sourceTree = "<group>"; };
+		97EF3A291E8A07A4000EF350 /* AppSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSetting.m; sourceTree = "<group>"; };
 		CF63C298871A5113350414AC /* Pods-iOSQuicklyBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSQuicklyBuild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSQuicklyBuild/Pods-iOSQuicklyBuild.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,6 +199,10 @@
 				97EF3A171E89FE6D000EF350 /* WMCharacterHandle.m */,
 				97EF3A191E8A00DE000EF350 /* RuntimeUtil.h */,
 				97EF3A1A1E8A00DE000EF350 /* RuntimeUtil.m */,
+				97EF3A251E8A05AD000EF350 /* UserModel.h */,
+				97EF3A261E8A05AD000EF350 /* UserModel.m */,
+				97EF3A281E8A07A4000EF350 /* AppSetting.h */,
+				97EF3A291E8A07A4000EF350 /* AppSetting.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -400,6 +410,8 @@
 				97EF3A241E8A030C000EF350 /* NSString+Addition.m in Sources */,
 				97EF39DF1E89F962000EF350 /* AppDelegate.m in Sources */,
 				97EF39DC1E89F962000EF350 /* main.m in Sources */,
+				97EF3A2A1E8A07A4000EF350 /* AppSetting.m in Sources */,
+				97EF3A271E8A05AD000EF350 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
